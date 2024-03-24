@@ -7,7 +7,7 @@ Approximation routine for transforming Gregorian Calendar into Indonesian tradit
 
 Since bataknese new year is based on the rising of constellation of scorpio in the east and the constellation of orion setting in the west, there will some years that have 13 month in a year, they call it **Lamadu Year**. 
 
-The initiative demonstrated here emulate the experiental observation (rukyatulhilal) from the Lake Toba, North Sumatera, Indonesia - the origin place of the Batak people.
+The initiative demonstrated here emulate the experiental observation (*rukyatulhilal*) from the Lake Toba, North Sumatera, Indonesia - the origin place of the Batak people.
 
 ### Requirement Module
 ephem - PyEphem
