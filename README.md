@@ -10,11 +10,9 @@ Since bataknese new year is based on the rising of constellation of scorpio in t
 The initiative demonstrated here emulate the experiental observation (*rukyatulhilal*) from the Lake Toba, North Sumatera, Indonesia - the origin place of the Batak people.
 
 ### Requirement Module
-ephem - PyEphem
+ephem - PyEphem `pip install ephem`
 
-Instal: pip install ephem
-
-Refer to the remarks within the function for detail.
+Refer to the remarks within the functions in `cosmoBatak.py` for detail.
 
 ### Usage
 
