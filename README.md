@@ -1,12 +1,18 @@
 # BatakCosmogram
-Approximation routine for transforming Gregorian Calendar into Indonesian traditional Batak Cosmogram. 
+Approximation routine for transforming Gregorian Calendar into Indonesian traditional Batak Cosmogram. Bataknese calendar is lunar one, the new month is as the coming of the new moon that appears after the sunset every month. The new year is the evening of the new month where the constellation of Scorpio (Batak: Siala Porima) rising in the east and the constellation of Orion (Batak: Siala Sungsang) setting in the west. Thus Bataknese traditional calendar requires considering several astronomical phenomena:
 
-Refer to the remarks within the function for detail.
+1. **Lunar Month**: The Bataknese calendar is lunar, with months beginning at the sighting of the new moon. A lunar month averages about 29.53 days. By tracking the phases of the moon, we can estimate the beginning of each month with the appearance of the new moon.
+2. **Constellations' Position**: The new year begins when Scorpio is rising in the east, and Orion is setting in the west at sunset. This specific alignment happens once a year, marking the start of the new year in the Bataknese calendar. This is the key event marking the new year in Bataknese Calendar/Cosmogram. This event typically occurs around late April or early May, as constellations' visibility shifts with the Earth's orbit around the Sun.
+3. **Location**: Astronomical events are observed from Jakarta, Indonesia. The location's latitude and longitude affect the visibility and timing of constellations and the moon.
+
+Since bataknese new year is based on the rising of constellation of scorpio in the east and the constellation of orion setting in the west, there will some years that have 13 month in a year, they call it **Lamadu Year**. 
 
 ### Requirement Module
 ephem - PyEphem
 
 Instal: pip install ephem
+
+Refer to the remarks within the function for detail.
 
 ### Usage
 
