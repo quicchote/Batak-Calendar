@@ -26,5 +26,6 @@ This is part of the work for Budaya-Indonesia.org within the Bandung Fe Institut
 Feel free to contact:
 Institut Batakologi http://batakologi.id/
 
+There's a recommended part in Chapter 1 in the book (written in Bahasa Indonesia) **Enigma Pusaka di Kepulauan Indonesia** for initial understanding on conceptual Indonesian traditional cosmogram/calendar. https://play.google.com/store/books/details/Hokky_Situngkir_Enigma_Pusaka_di_Kepulauan_Indones?id=CxfgEAAAQBAJ
 
 
