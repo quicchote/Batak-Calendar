@@ -1,5 +1,5 @@
 # BatakCosmogram
-Approximation routine for transforming Gregorian Calendar into Batak Cosmogram. 
+Approximation routine for transforming Gregorian Calendar into Indonesian traditional Batak Cosmogram. 
 
 Refer to the remarks within the function for detail.
 
