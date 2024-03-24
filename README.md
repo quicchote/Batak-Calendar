@@ -7,6 +7,8 @@ Approximation routine for transforming Gregorian Calendar into Indonesian tradit
 
 Since bataknese new year is based on the rising of constellation of scorpio in the east and the constellation of orion setting in the west, there will some years that have 13 month in a year, they call it **Lamadu Year**. 
 
+The initiative demonstrated here emulate the experiental observation (rukyatulhilal) from the Lake Toba, North Sumatera, Indonesia - the origin place of the Batak people.
+
 ### Requirement Module
 ephem - PyEphem
 
@@ -16,7 +18,7 @@ Refer to the remarks within the function for detail.
 
 ### Usage
 
-Run by changing the Gregorian Date you want to transform into the date and month in traditional Batak Cosmogram. This approximation does the simulation of the place for observation (rukyatulhilal) from the Lake Toba, North Sumatera, Indonesia.
+Run by changing the Gregorian Date you want to transform into the date and month in traditional Batak Cosmogram. 
 
 ### For more info
 This is part of the work for Budaya-Indonesia.org within the Bandung Fe Institute.
