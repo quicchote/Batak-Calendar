@@ -5,7 +5,7 @@ We do the simulation of the place for observation (rukyatulhilal) from the Lake 
 Refer to the remarks within the function for detail.
 Please refer to Institut Batakologi for more information.
 
-20240325 Hokky Situngkir
+20240325
 part of the work for Budaya-Indonesia.org within the Bandung Fe Institute
 """
 
