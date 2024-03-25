@@ -3,11 +3,9 @@ Approximation of mathematical routine for transforming Gregorian Calendar into I
 
 1. **Lunar Month**: The Bataknese calendar is lunar, with months beginning at the sighting of the new moon. A lunar month averages about 29.53 days. By tracking the phases of the moon, we can estimate the beginning of each month with the appearance of the new moon.
 2. **Constellations' Position**: The new year begins when Scorpio is rising in the east, and Orion is setting in the west at sunset. This specific alignment happens once a year, marking the start of the new year in the Bataknese calendar. This is the key event marking the new year in Bataknese Calendar/Cosmogram. This event typically occurs around late April or early May, as constellations' visibility shifts with the Earth's orbit around the Sun.
-3. **Location**: Astronomical events are observed from Jakarta, Indonesia. The location's latitude and longitude affect the visibility and timing of constellations and the moon.
+3. **Location**: Astronomical events are sensitive to the location where the observation is delivered. The location's latitude and longitude affect the visibility and timing of constellations and the moon. The initiative demonstrated here emulates mathematically the experiental observation (*rukyatulhilal*) from the Lake Toba, North Sumatera, Indonesia - the origin place of the Batak people.
 
 Since bataknese new year is based on the rising of constellation of scorpio in the east and the constellation of orion setting in the west, there will some years that have 13 month in a year, they call it **Lamadu Year**. 
-
-The initiative demonstrated here emulates the experiental observation (*rukyatulhilal*) from the Lake Toba, North Sumatera, Indonesia - the origin place of the Batak people.
 
 ### Requirement Module
 ephem - PyEphem `pip install ephem`
