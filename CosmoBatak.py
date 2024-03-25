@@ -88,7 +88,7 @@ def check_constellations_visibility(observer, date):
     antares_rise = observer.next_rising(antares).datetime()
     betelgeuse_set = observer.next_setting(betelgeuse).datetime()
     
-    valid_observation_window = timedelta(hours=4)  # Time window after sunset
+    valid_observation_window = timedelta(hours=2.5)  # Time window after sunset
     
     is_antares_rising_after_sunset = sunset <= antares_rise <= (sunset + valid_observation_window)
     is_betelgeuse_setting_after_sunset = sunset <= betelgeuse_set <= (sunset + valid_observation_window)
@@ -142,7 +142,7 @@ def gregorian_to_batak(gregorian_date):
     batak_new_year_start = find_batak_new_year_start(gregorian_date, observer)
     
     # Calculate Batak month and day
-    batak_month = count_lunar_months_since_new_year(batak_new_year_start, gregorian_date)
+    batak_month = count_lunar_months_since_new_year(batak_new_year_start, gregorian_date) + 1
     latest_new_moon = bulan.datetime()
     batak_day = (gregorian_date - latest_new_moon).days + 1
     print(f"For previously Batak New Year date is {batak_new_year_start.strftime('%Y-%m-%d')}, then")
