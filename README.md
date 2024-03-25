@@ -1,7 +1,7 @@
 # BatakCosmogram
 Approximation of mathematical routine for transforming Gregorian Calendar into Indonesian traditional Batak Cosmogram. Bataknese calendar is lunar one, the new month is as the coming of the new moon that appears after the sunset every month. The new year is the evening of the new month where the constellation of Scorpio (Batak: Siala Porima) rising in the east and the constellation of Orion (Batak: Siala Sungsang) setting in the west. 
 
-![img](https://github.com/quicchote/BatakCosmogram/blob/main/img/ariariporiama.png "The moon and Constellation of Scorpio in Batak ancient realms as depicted in Winkler, J. (1913). 'Der Kalender der Toba-Bataks auf Sumatra'. Zeitschrift für Ethnologie pp. 436-447. Dietrich Reimer Verlag GmbH.")
+![img](https://github.com/quicchote/BatakCosmogram/blob/main/img/ariariporiama.png "The moon and Constellation of Scorpio in Batak ancient realms in the Gregorian Year of 1912 as depicted in Winkler, J. (1913). 'Der Kalender der Toba-Bataks auf Sumatra'. Zeitschrift für Ethnologie pp. 436-447. Dietrich Reimer Verlag GmbH.")
 
 Thus Bataknese traditional calendar requires considering several astronomical phenomena:
 
