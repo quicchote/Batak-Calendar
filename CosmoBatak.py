@@ -88,7 +88,7 @@ def check_constellations_visibility(observer, date):
     antares_rise = observer.next_rising(antares).datetime()
     betelgeuse_set = observer.next_setting(betelgeuse).datetime()
     
-    valid_observation_window = timedelta(hours=2.5)  # Time window after sunset
+    valid_observation_window = timedelta(hours=2.9)  # Time window after sunset
     
     is_antares_rising_after_sunset = sunset <= antares_rise <= (sunset + valid_observation_window)
     is_betelgeuse_setting_after_sunset = sunset <= betelgeuse_set <= (sunset + valid_observation_window)
@@ -145,18 +145,29 @@ def gregorian_to_batak(gregorian_date):
     batak_month = count_lunar_months_since_new_year(batak_new_year_start, gregorian_date) + 1
     latest_new_moon = bulan.datetime()
     batak_day = (gregorian_date - latest_new_moon).days + 1
-    print(f"For previously Batak New Year date is {batak_new_year_start.strftime('%Y-%m-%d')}, then")
     
-    return batak_month, batak_day
+    return batak_month, batak_day, batak_new_year_start
 
 # -------------
-# Example usage
+# User Input
 # -------------
-gregorian_date = datetime(1994, 4, 1)  # <-- change this to calculate
-batak_month, batak_day = gregorian_to_batak(gregorian_date)
-# print(f"the Batak cosmogram date for {gregorian_date.strftime('%Y-%m-%d')} is Month: {batak_month}, Day: {batak_day}")
 
-batak_month_name = batak_month_names.get(batak_month)
-batak_day_name = batak_day_names.get(batak_day)
+user_input = input("Enter a Gregorian date (YYYY-MM-DD) to convert to the Batak cosmogram: ")
+try:
+    # Parsing the user input into a datetime object
+    gregorian_date = datetime.strptime(user_input, '%Y-%m-%d')
+    
+    # Call the conversion function with the user-provided date
+    batak_month, batak_day, batak_new_year_start = gregorian_to_batak(gregorian_date)
+    
+    # Output the result
+    batak_month_name = batak_month_names.get(batak_month)
+    batak_day_name = batak_day_names.get(batak_day)
+    print ("--------------------->oo<---------------------")
+    print(f"For previously Batak New Year date is {batak_new_year_start.strftime('%Y-%m-%d')}, then")
+    print(f"the Batak cosmogram date for {gregorian_date.strftime('%Y-%m-%d')} is Month({batak_month}): {batak_month_name}, Day: {batak_day} - {batak_day_name}")    
 
-print(f"the Batak cosmogram date for {gregorian_date.strftime('%Y-%m-%d')} is Month({batak_month}): {batak_month_name}, Day: {batak_day} - {batak_day_name}")
+except ValueError:
+    # Handles the error if the date format is incorrect
+    print("Error: Please enter the date in YYYY-MM-DD format.")
+
