@@ -23,7 +23,7 @@ Refer to the remarks within the functions in `cosmoBatak.py` for detail.
 
 ### Usage
 
-Run the code by changing the Gregorian Date you want to transform into the date and month in traditional Batak Cosmogram. 
+Run the code and fill in the Gregorian Date you want to transform into the date and month in traditional Batak Cosmogram. 
 
 ### For more info
 This is part of the work for Budaya-Indonesia.org within the Bandung Fe Institute.
