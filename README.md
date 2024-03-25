@@ -7,7 +7,7 @@ Approximation of mathematical routine for transforming Gregorian Calendar into I
 
 Since bataknese new year is based on the rising of constellation of scorpio in the east and the constellation of orion setting in the west, there will some years that have 13 month in a year, they call it **Lamadu Year**. 
 
-### Requirement Module
+### Requirement 
 ephem - PyEphem `pip install ephem`
 
 Refer to the remarks within the functions in `cosmoBatak.py` for detail.
