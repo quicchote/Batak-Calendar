@@ -151,7 +151,7 @@ def gregorian_to_batak(gregorian_date):
 # -------------
 # User Input
 # -------------
-
+# gregorian_date = 1994-04-01
 user_input = input("Enter a Gregorian date (YYYY-MM-DD) to convert to the Batak cosmogram: ")
 try:
     # Parsing the user input into a datetime object
