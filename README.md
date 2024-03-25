@@ -13,7 +13,7 @@ Since bataknese new year is based on the rising of constellation of scorpio in t
 
 The rich cultural and astronomical knowledge embedded in traditional calendars like the Batak's showcases the deep connection between celestial observations and timekeeping practices in various cultures around the world. This signifies that Indonesian Batak traditional cosmogram is a *Lunistar* calenderical system.
 
-![img](https://github.com/quicchote/BatakCosmogram/blob/main/img/parhalaan.png "The Batak Parhalaan of daily date")
+![img](https://github.com/quicchote/BatakCosmogram/blob/main/img/parhalaan.png "The daily Batak Parhalaan of 12 months.")
 
 
 ### Requirement 
