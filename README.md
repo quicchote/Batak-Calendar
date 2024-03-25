@@ -17,7 +17,9 @@ The rich cultural and astronomical knowledge embedded in traditional calendars l
 
 
 ### Requirement 
-ephem - PyEphem `pip install ephem`
+ephem - PyEphem 
+
+`pip install ephem`
 
 Refer to the remarks within the functions in `cosmoBatak.py` for detail.
 
