@@ -88,7 +88,7 @@ def check_constellations_visibility(observer, date):
     antares_rise = observer.next_rising(antares).datetime()
     betelgeuse_set = observer.next_setting(betelgeuse).datetime()
     
-    valid_observation_window = timedelta(hours=3)  # Time window after sunset
+    valid_observation_window = timedelta(hours=3.5)  # Time window after sunset
     
     is_antares_rising_after_sunset = sunset <= antares_rise <= (sunset + valid_observation_window)
     is_betelgeuse_setting_after_sunset = sunset <= betelgeuse_set <= (sunset + valid_observation_window)
