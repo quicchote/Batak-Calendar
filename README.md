@@ -33,6 +33,8 @@ This is part of the work for Budaya-Indonesia.org within the Bandung Fe Institut
 Feel free to contact:
 Institut Batakologi http://batakologi.id/
 
+A more detailed description of Batak Calendar as Lunar-Star one is available [here](https://zenodo.org/records/10906157).
+
 There's a recommended part in Chapter 1 in the book (written in Bahasa Indonesia) [**Enigma Pusaka di Kepulauan Indonesia**](https://play.google.com/store/books/details/Hokky_Situngkir_Enigma_Pusaka_di_Kepulauan_Indones?id=CxfgEAAAQBAJ) for initial understanding on conceptual Indonesian traditional cosmogram/calendar. 
 
 
